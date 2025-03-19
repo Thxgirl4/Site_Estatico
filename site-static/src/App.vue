@@ -11,28 +11,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      newTask: '',
-      tasks: []
-    };
-  },
-  methods: {
-    addTask() {
-      if (this.newTask.trim()) {
-        this.tasks.push(this.newTask);
-        this.newTask = '';
-      }
-    },
-    removeTask(index) {
-      this.tasks.splice(index, 1);
-    }
-  }
-};
-</script>
-
 <style>
 #app {
   max-width: 600px;
