@@ -11,7 +11,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/App.vue"
+        "dest": "/index.html"
       }
     ]
   }
